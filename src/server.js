@@ -20,6 +20,15 @@ function handleErrors(req, res, next) {
 }
 
 // -----------------------------
+// Proof of concept
+// -----------------------------
+
+app.get("/", (req, res) => {
+  res.send("Lewis Bookstore API is running 🚀");
+});
+
+
+// -----------------------------
 // BOOKS
 // -----------------------------
 app.get("/books", (req, res) => {

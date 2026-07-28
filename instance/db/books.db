@@ -1,0 +1,7 @@
+{"title":"The Stand","authorName":"Stephen King","isbn":"9780307743688","pubDate":"1978-10-03","_id":"3ze2W4FxPyP2BgY6"}
+{"title":"Sample Book","authorName":"John Doe","isbn":"1234567890","pubDate":{"$$date":1704067200000},"_id":"SXWC3g0aLJP7SFUm"}
+{"title":"A Brief History of Time","authorName":"Stephen Hawking","isbn":"9780553380163","pubDate":"1988-04-01","_id":"spezQ5XiNunc4iuB"}
+{"title":"Into Thin Air","authorName":"Jon Krakauer","isbn":"9780385494786","pubDate":"1997-03-20","_id":"tbI5wptFhvbQevgX"}
+{"title":"The World Is Flat","authorName":"Thomas L. Friedman","isbn":"9780374292881","pubDate":"2005-04-05","_id":"uVhE0QyXACM8SWp9"}
+{"title":"Jurassic Park","authorName":"Michael Crichton","isbn":"9780345538987","pubDate":"1990-11-20","_id":"y0VmmfikUDy5uKuI"}
+{"$$indexCreated":{"fieldName":"isbn","unique":true,"sparse":false}}

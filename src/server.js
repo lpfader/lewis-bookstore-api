@@ -24,7 +24,7 @@ function handleErrors(req, res, next) {
 // -----------------------------
 
 app.get("/", (req, res) => {
-  res.send("Lewis Bookstore API is running 🚀");
+  res.send("This absolutely means my API is working! Yay! Backend is powered by Github and Render and Frontend is Netlify.");
 });
 
 

@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors"; // ✅ add this line
 import { body, validationResult } from "express-validator";
 import swaggerUi from "swagger-ui-express";
 import swaggerDocument from "../swagger.json" with { type: "json" };
@@ -7,6 +8,7 @@ import { books, authors, users } from "./db_nedb.js";
 
 const app = express();
 app.use(express.json());
+app.use(cors()); // ✅ add this line right after express.json()
 
 
 // ERRORS
